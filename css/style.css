@@ -28,6 +28,7 @@ body {
   background-color: #ffffff;
   height: 10% ;
   padding: 4rem 2rem 1.5rem 2rem;
+  border-bottom: .1rem solid #e6e6e6;
   
   
   
@@ -63,10 +64,6 @@ body {
   margin-left: 3rem;
 }
 
-.line {
-  width: 100%;
-  color:  #777777;
-}
 
 .status {
   display: flex;
@@ -210,6 +207,12 @@ button {
   body {
     font-size: 1.5rem;
   }
+
+ /* .logoContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  */
   .right{
     display: flex;
     justify-content: space-around;
@@ -303,7 +306,7 @@ button {
   .dotCon {
     position: relative;
     top: 2.5rem;
-    left: 35rem; 
+    left: 30rem; 
     display: flex;
     justify-content: space-evenly;
 }
