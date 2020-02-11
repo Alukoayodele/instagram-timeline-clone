@@ -433,8 +433,8 @@ button {
     position: relative;
     top: 2.5rem;
     left: 55rem; 
-    display: flex;
-    justify-content: space-evenly;
+    display: block;
+    justify-content: space-around;
 }
 
 .link {
